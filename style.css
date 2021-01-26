@@ -1,0 +1,160 @@
+@font-face {
+  font-family: cstm;
+  src: url("https://cdn.glitch.com/0dda0d41-1bcd-4175-8112-99af6f54bae2%2FCSTM%20Xprmntl%2003-Medium-Web.eot?v=1611645660098") format ("eot");
+  src: url("https://cdn.glitch.com/0dda0d41-1bcd-4175-8112-99af6f54bae2%2FCSTM%20Xprmntl%2003-Medium-Web.ttf?v=1611645729956") format("truetype"), /* Safari, Android, iOS */
+       url("https://cdn.glitch.com/0dda0d41-1bcd-4175-8112-99af6f54bae2%2FCSTM%20Xprmntl%2003-Medium-Web.woff?v=1611645659966") format("woff"), /* Modern Browsers */
+       url("https://cdn.glitch.com/0dda0d41-1bcd-4175-8112-99af6f54bae2%2FCSTM%20Xprmntl%2003-Medium-Web.woff2?v=1611645660049") format("woff2");/* Modern Browsers */
+  font-weight: 500;
+  font-style: normal;
+}
+/* "CSTM Xprmntl 03 Medium", sans-serif */
+
+.loadingbar {
+  background: red;
+  position: absolute;
+  animation: 0.7s loaderanimation 1 step-end;
+  -webkit-animation: 0.7s loaderanimation 1 step-end;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+
+.loadingbarcontainer {
+  position: relative;
+}
+
+#containerforloader {
+/*   position: relative; */
+/*   height: 100%;
+  width: 100%; */
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+/*   margin: 2em; */
+  background: #070707;
+}
+
+.mystyle {
+  position: relative;
+}
+
+
+h1 {
+  color: #fafafa;
+  font-size: 12vw;
+  font-family: cstm;
+  line-height: 70%;
+  font-weight: 500;
+/*   letter-spacing: 0.004em; */
+  
+  margin: 0 0 0.2em 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.frame {
+  color: #fafafa;
+  font-size: 2.6vw;
+  font-family: cstm;
+  
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  
+/*   height: calc(var(--variable-height) - 20px); */
+  
+/*   line-height: 90.8%; */
+}
+
+.twice {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+/*   margin-left: 2%; */
+}
+
+.twice_16k, .twice_32k, .twice_32k_8, .twice_64k_16, .twice_64k_8, .twice_64k_4 {  
+display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+}
+
+.smallimages {
+  width: 34%;
+}
+
+#mainimage {
+  margin-right: 1.6vw;
+  max-height: 550px;
+}
+
+#photos_container {
+  max-width: 1800px;
+}
+
+.twoImages {
+  margin-left: 1.4vw;
+  margin-right: 1.4vw;
+}
+
+.fourImagesCont {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.eightImagesCont {
+  margin-left: 0.9vw;
+  margin-right: 0.9vw;
+}
+
+.sixteenImagesCont {
+  margin-left: 0.66vw;
+  margin-right: 0.66vw;
+}
+
+.thirtytwoImagesCont {
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+.sixtyFourImagesCont {
+  margin-left: 0.2vw;
+  margin-right: 0.2vw;
+}
+
+#loader {
+  display: none; 
+  position: absolute; 
+  bottom: 0px; 
+  left: 0px;
+  background: red;
+  width: 100%;
+  height: 100%;
+}
+
+.loaderanimation {
+   animation: 0.4s loaderanimation 1 step-end;
+}
+
+@-webkit-keyframes loaderanimation{
+  0% { height: 100%;}
+  20% { height: 80%;}
+  50% { height: 40%;}
+  100% {height: 0%;}
+}
+
+@keyframes loaderanimation{
+    0% { height: 100%;}
+  20% { height: 80%;}
+  50% { height: 40%;}
+  100% {height: 0%;}
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
