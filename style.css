@@ -1,6 +1,6 @@
 @font-face {
   font-family: cstm;
-  src: url("https://cdn.glitch.com/0dda0d41-1bcd-4175-8112-99af6f54bae2%2FCSTM%20Xprmntl%2003-Medium-Web.eot?v=1611645660098") format ("eot");
+/*   src: url("https://cdn.glitch.com/0dda0d41-1bcd-4175-8112-99af6f54bae2%2FCSTM%20Xprmntl%2003-Medium-Web.eot?v=1611645660098") format ("eot"); */
   src: url("https://cdn.glitch.com/0dda0d41-1bcd-4175-8112-99af6f54bae2%2FCSTM%20Xprmntl%2003-Medium-Web.ttf?v=1611645729956") format("truetype"), /* Safari, Android, iOS */
        url("https://cdn.glitch.com/0dda0d41-1bcd-4175-8112-99af6f54bae2%2FCSTM%20Xprmntl%2003-Medium-Web.woff?v=1611645659966") format("woff"), /* Modern Browsers */
        url("https://cdn.glitch.com/0dda0d41-1bcd-4175-8112-99af6f54bae2%2FCSTM%20Xprmntl%2003-Medium-Web.woff2?v=1611645660049") format("woff2");/* Modern Browsers */
